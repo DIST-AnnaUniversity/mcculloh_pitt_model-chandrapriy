@@ -1,15 +1,6 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 9,
-   "id": "3fc68838",
-   "metadata": {},
+
    "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+   
       "Input [[ 1.  -2.   1.5  0. ]\n",
       " [ 0.   1.5 -0.5 -1. ]\n",
       " [-1.   1.   0.5 -1. ]]\n",
@@ -108,8 +99,7 @@
       "------------\n",
       "Final sets of weights [ 13.  -28.    9.   12.5]\n"
      ]
-    }
-   ],
+    
    "source": [
     "import numpy as np\n",
     "X = np.array([[1,-2,1.5,0],[0,1.5,-0.5,-1],[-1,1,0.5,-1],])\n",
@@ -136,43 +126,5 @@
     "        print (\"------------\")\n",
     "print (\"Final sets of weights\", w)"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "bb762931",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "679c63f9",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.9.12"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+  
+   
